@@ -2,7 +2,7 @@
   = site_hostname
 
 .content
-  .box-widget
+  .box-widget.mastodon-com-br-migrar-root
     .rich-formatting
       %h2 Migrando de uma instância para outra
       %p Este é o passo-a-passo de como migrar sua conta no mastodon de uma instância para outra. Você pode migrar tudo (seguidores, seguidos, silenciados e bloqueados) exceto seus toots e mídia, você pode exportá-los mas não pode importá-los na nova instância.
@@ -12,37 +12,37 @@
         %li
           %p <strong>Na nova instância</strong> vá em <code>Preferências</code> > <code>Conta</code> > <code>Configurações da conta</code>
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_1.png'), alt: ''
           %p Role a página, e em <code>Migrando de outra conta</code>, clique em <code>Criar um alias</code>
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_2.png'), alt: ''
 
         %li
           %p Coloque o seu nome de usuário da instância que você está saindo (você encontra ele logo abaixo da sua foto no seu perfil)
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_3.png'), alt: ''
 
         %li
           %p <strong>Na instância antiga</strong> faça <strong>backup</strong> dos seus dados em <code>Preferências</code> > <code>Importar e exportar</code> > <code>Exportar dados</code>
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_4.png'), alt: ''
           %p Salve cada um dos arquivos disponíveis (não é possível salvar toots e seguidores nesse formato)
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_5.png'), alt: ''
 
         %li
           %p Em seguida <strong>importe</strong> esses aquivos <strong>na nova instância</strong> em <code>Preferências</code> > <code>Importar e exportar</code> > <code>Importar</code>
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_6a.png'), alt: ''
           %p Selecione o tipo de arquivo no menu <code>Tipo de importação</code>.
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_6.png'), alt: ''
           %p Escolha o arquivo a ser importado e então selecione se você quer <code>Juntar</code> ou <code>Sobrescrever</code> o arquivo existente.
           %p Ao <code>Juntar</code> você <strong>adiciona</strong> o que tinha na instância antiga com o que tem na nova.
@@ -58,17 +58,17 @@
         %li
           %p Agora voltando para <strong>a instância antiga</strong>, vá em <code>Preferências</code> > <code>Conta</code> > <code>Configurações da conta</code>
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_1.png'), alt: ''
           %p Role a página e em <code>Mudar-se para outra conta</code>, clique em <code>configurar isso aqui</code>.
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_7.png'), alt: ''
 
         %li
           %p Coloque seu nome de usuário <strong>da nova instância</strong> e clique em <code>Migrar seguidores</code>.
           %p
-            %figure(class="mastodon-com-br-screenshot")
+            %figure.mastodon-com-br-screenshot
               = image_tag full_pack_url('media/images/mastodon_com_br/migrate_8.png'), alt: ''
           %p Existe a possibilidade deste último passo não funcionar, pois a instância antiga ainda não sabe da existência do alias da nova, caso aconteça tente novamente mais tarde.
 

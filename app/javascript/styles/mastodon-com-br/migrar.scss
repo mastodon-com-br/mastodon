@@ -1,0 +1,15 @@
+.mastodon-com-br-migrar-root {
+  overflow-x: hidden;
+}
+
+.mastodon-com-br-screenshot {
+  width: intrinsic;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+
+  > img {
+    width: 50%;
+    border: 10px solid #191b22;
+  }
+}
