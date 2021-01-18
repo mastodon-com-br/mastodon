@@ -64,7 +64,7 @@ pt-BR:
       imports:
         data: Arquivo CSV exportado de outra instância Mastodon
       invite_request:
-        text: Como você soube desta instância? Você leu e concorda com nossas regras? Você entende que nos importamos mais com ter pessoas que não perpetuam discriminações do que com ter uma grande quantidade de registros? Você poderia se introduzir? Quanto mais detalhes você der, maior a chance de você ser aceite.
+        text: Como você soube desta instância? Você leu e concorda com nossas regras? Você entende que nos importamos mais com ter pessoas que não perpetuam discriminações do que com ter uma grande quantidade de registros? Você poderia se apresentar? Quanto mais detalhes você der, maior a chance de você ser aceite.
       ip_block:
         comment: Opcional. Lembrar de por que você adicionou esta regra.
         expires_in: Endereços IP são um recurso limitado, algumas vezes são compartilhados e muitas vezes mudam de mãos. Por esse motivo, blocos de IP indefinidos não são recomendados.
