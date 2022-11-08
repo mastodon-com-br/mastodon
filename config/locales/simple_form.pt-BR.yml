@@ -69,7 +69,7 @@ pt-BR:
       imports:
         data: Arquivo CSV exportado de outra instância Mastodon
       invite_request:
-        text: Como você soube desta instância? Você entende que nos importamos mais com ter pessoas que não perpetuam discriminações do que com ter uma grande quantidade de registros? Você poderia se apresentar? Quanto mais detalhes você der, maior a chance de você ser aceite. Para ser aceito na instancia você deve ler as regras e concordar com elas escrevendo "concordo" no campo abaixo.
+        text: Se apresente, conte porque quer entrar nesta instância, quanto mais detalhes você der, maior a chance de você ser aceite. Alem disso, você deve ler as regras e concordar com elas escrevendo "li e concordo" no campo abaixo. Não aceitaremos pedidos de entrada sem esses dois itens.
       ip_block:
         comment: Opcional. Lembrar de por que você adicionou esta regra.
         expires_in: Endereços IP são um recurso limitado, algumas vezes são compartilhados e muitas vezes mudam de mãos. Por esse motivo, blocos de IP indefinidos não são recomendados.
