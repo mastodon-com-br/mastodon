@@ -3,5 +3,6 @@
 User-agent: *
 Disallow: /@
 Disallow: /public
+Disallow: /explore
 Disallow: /media_proxy/
 Disallow: /interact/
