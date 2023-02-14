@@ -54,10 +54,7 @@ const dbUrlToConfig = (dbUrl) => {
   const ssl = params.query && params.query.ssl;
 
   if (ssl && ssl === 'true' || ssl === '1') {
-    config.ssl = {
-      rejectUnauthorized: true,
-      ca: fs.readFileSync("/home/mastodon/ca-certificate.crt").toString()
-    }
+    config.ssl = true;
   }
 
   return config;
