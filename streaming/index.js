@@ -145,16 +145,10 @@ const startWorker = async (workerId) => {
 
   app.set('trust proxy', process.env.TRUSTED_PROXY_IP ? process.env.TRUSTED_PROXY_IP.split(/(?:\s*,\s*|\s+)/) : 'loopback,uniquelocal');
 
-  console.log(Object.assign(pgConfigs[env], dbUrlToConfig(process.env.DATABASE_URL), {
-    max: process.env.DB_POOL || 10,
-    connectionTimeoutMillis: 15000,
-    ssl: !!process.env.DB_SSLMODE && process.env.DB_SSLMODE !== 'disable',
-  }));
-
   const pgPool = new pg.Pool(Object.assign(pgConfigs[env], dbUrlToConfig(process.env.DATABASE_URL), {
     max: process.env.DB_POOL || 10,
     connectionTimeoutMillis: 15000,
-    ssl: !!process.env.DB_SSLMODE && process.env.DB_SSLMODE !== 'disable',
+    // ssl: !!process.env.DB_SSLMODE && process.env.DB_SSLMODE !== 'disable',
   }));
 
   console.log(pgPool);
