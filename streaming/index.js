@@ -148,6 +148,8 @@ const startWorker = async (workerId) => {
     ssl: !!process.env.DB_SSLMODE && process.env.DB_SSLMODE !== 'disable',
   }));
 
+  console.log(pgPool);
+
   const server = http.createServer(app);
   const redisNamespace = process.env.REDIS_NAMESPACE || null;
 
